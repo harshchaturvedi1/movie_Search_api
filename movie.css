@@ -1,0 +1,71 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background-image: url("https://cdn.wallpapersafari.com/30/63/HNCtpZ.jpg");
+}
+#searchbar,
+#notFound {
+  display: flex;
+  margin-top: 5vh;
+  justify-content: center;
+}
+input {
+  width: 30%;
+  height: 5vh;
+  outline: none;
+  padding: 5px;
+  padding-left: 20px;
+  font-size: 16px;
+  background: wheat;
+}
+button {
+  width: 10%;
+  margin-left: 1vw;
+  font-size: 18px;
+  background: wheat;
+}
+#notFound img {
+  width: 50vw;
+  height: 50vh;
+}
+#movieDetails {
+  display: grid;
+  grid-template-columns: 40% 30%;
+  justify-content: center;
+  margin-top: 10vh;
+}
+#moviePoster img {
+  width: 60%;
+  height: 60vh;
+  padding: 2%;
+  border: 1px solid rgb(238, 236, 236);
+}
+#moviePoster img:hover,
+button:hover {
+  box-shadow: 3px 3px 15px white;
+}
+#moviediv {
+  font-size: 30px;
+  font-weight: 550;
+  text-align: left;
+  border: 1px solid rgb(247, 245, 245);
+  margin-left: -15%;
+  padding: 5%;
+  padding-top: 20%;
+}
+#moviediv:hover {
+  box-shadow: 3px 3px 8px white;
+}
+
+#moviediv p {
+  margin-top: 3%;
+  color: white;
+}
+#recomended {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  background: rgb(185, 185, 19);
+  padding: 2%;
+  display: inline-block;
+  margin-bottom: 2%;
+}
